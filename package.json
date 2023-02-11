@@ -2,7 +2,7 @@
   "name": "get-current-version",
   "repository": "github:fabiospampinato/get-current-version",
   "description": "Get the version of the currently executing bin.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
