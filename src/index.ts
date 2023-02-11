@@ -1,28 +1,13 @@
 
 /* IMPORT */
 
-import findUp from 'find-up-json';
-import fs from 'node:fs';
-import path from 'node:path';
-import process from 'node:process';
+import getCurrentPackage from 'get-current-package';
 
 /* MAIN */
 
 const getCurrentVersion = (): string | undefined => {
 
-  try {
-
-    const filePath = fs.realpathSync ( process.argv[1] );
-    const folderPath = path.dirname ( filePath );
-    const pkg = findUp ( 'package.json', folderPath );
-
-    return pkg?.content?.version;
-
-  } catch {
-
-    return;
-
-  }
+  return getCurrentPackage ()?.['version'];
 
 };
 
