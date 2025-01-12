@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/get-current-version",
   "description": "Get the version of the currently executing bin.",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
