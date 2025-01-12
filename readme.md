@@ -4,10 +4,12 @@ Get the version of the currently executing bin.
 
 This is meant to be used in combination with [`tiny-updater`](https://github.com/fabiospampinato/tiny-updater) or similar, in order to get the version of the currently executing bin very conveniently, without importing a "package.json" and without hard-coding the version number yourself.
 
+See [`get-current-package`](https://github.com/fabiospampinato/get-current-package) for a more general version of this package.
+
 ## Install
 
 ```sh
-npm install --save get-current-version
+npm install get-current-version
 ```
 
 ## Usage
